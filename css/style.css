@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,500&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  background: #2f343a;
+}
+
+.cargo {
+  height: 620px;
+  background: url(../img/Rectangle2.png);
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+section h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+
+  color: #ffffff;
+}
+
+.slidercontent h2 {
+  margin-bottom: 30px;
+}
+
+.slider {
+  background-color: #393f47;
+}
+
+section .glide {
+  height: 100%;
+  background: linear-gradient(180deg, #2f343a 0%, #2f343a 100%);
+  background-size: 470px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.services {
+  padding: 160px 0 120px;
+}
+
+.upperline {
+  position: relative;
+}
+
+.upperline::before {
+  content: " ";
+  position: absolute;
+  width: 90px;
+  height: 6px;
+  top: -40px;
+  background: #c8a35f;
+}
+
+.aviatrails {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin: -0.5px;
+}
+
+.trails {
+  margin: 0.5px;
+  width: calc(25% - 3px);
+  /* 100% ширина делим на 25 получается 4 */
+  padding: 35px 35px 30px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: #393f47;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.aviatext {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.circle {
+  position: relative;
+  padding-bottom: 23px;
+}
+
+.plane {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 19px;
+}
+
+.trails:hover #circle {
+  fill: white;
+}
+
+.trails:hover #plane {
+  fill: #2f343a;
+}
+
+.trails:hover {
+  background: #c8a35f;
+}
+.lorem p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  max-width: 445px;
+
+  color: #ffffff;
+}
+
+.about {
+  height: 100%;
+  background: linear-gradient(180deg, #393f47 0%, #393f47 100%);
+  background-size: 410px 482px;
+  padding: 160px 0px 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.slidercontent {
+  display: flex;
+  justify-content: space-between;
+  max-width: 445px;
+}
+
+.slidercontent .lorem {
+  max-width: 300px;
+}
+
+.slidercontent .button {
+  padding-top: 40px;
+}
+
+.glide__slide {
+  margin: 166px 0 129px 0;
+}
+
+.rectangle {
+  width: 445px;
+  padding-left: 155px;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin: -0.5px;
+  width: 50%;
+}
+
+.infoblocks {
+  width: calc(33% - 2px);
+  /* 100% ширина делим на 25 получается 4 */
+  /* padding: 35px; */
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  border: 0.25px solid #c8a35f;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.img img {
+  width: auto;
+  height: 100%;
+}
+
+.numbers {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #2f343a;
+}
+
+.text1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.text2 {
+  padding-top: 7px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+
+.glide .button a {
+  height: 55px;
+  width: 220px;
+  padding: 15px 48px 19px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #ffffff;
+  background: #c8a35f;
+  display: inline-block;
+}
+
+.glide .button:hover a {
+  color: black;
+}
+
+.glide .button:active a {
+  background: #81683a;
+}
